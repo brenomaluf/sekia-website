@@ -8,11 +8,10 @@
             Copyright © 2024 Sekia
         </div>
         <div class="flex  gap-8 align-middle">
-		<a href="https://google.com"><img src="assets/instagramLogo.png" alt="" /></a>
-		<a href="https://google.com"><img src="assets/linkedInLogo.png" alt="" /></a>
-		<a href="https://google.com"><img src="assets/facebookLogo.png" alt="" /></a>
-		<a href="https://google.com"><img src="assets/youtubeLogo.png" alt="" /></a>
-		<a href="https://google.com"><img src="assets/githubLogo.png" alt="" /></a>
+		<a href="https://www.instagram.com/sekia.co"><img src="assets/instagramLogo.png" alt="" /></a>
+	   <a href="https://linkedin.com/company/sekia/"><img src="assets/linkedInLogo.png" alt="" /></a>
+		<a href="https://facebook.com/sekia.co"><img src="assets/facebookLogo.png" alt="" /></a>
+		<a href="https://youtube.com/sekia.co"><img src="assets/youtubeLogo.png" alt="" /></a>
     </div>
 	</div>
 </footer>
