@@ -19,9 +19,8 @@
 	];
 </script>
 
-<div class="flex justify-center mx-auto gap-12 pt-12 pb-12">
+<div class="sm:flex-row flex-col flex items-center justify-center mx-auto gap-12 pt-12 pb-12">
 	{#each cards as { title, desc, src }}
 		<SolutionCard {title} subtitle={desc} srcImg={src}></SolutionCard>
 	{/each}
 </div>
-

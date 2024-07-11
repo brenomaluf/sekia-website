@@ -14,13 +14,18 @@
 	<BigText></BigText>
 	<Carroussel></Carroussel>
 	<Banner></Banner>
-	<div class="flex justify-between max-w-screen-xl px-32 pb-8">
-		<TipsCard img="assets/chatIcon.png" text="Envie seu contato"></TipsCard>
-		<TipsCard img="assets/profileIcon.png" text="Entramos em contato para nossa avaliação gratuita"></TipsCard>
-		<TipsCard img="assets/boxIcon.png" text="Entrega de soluções prontas para crescer sua empresa"></TipsCard>
+	<div class="sm:flex-row w-full flex-col flex justify-center sm:px-32 pb-8">
+		<div class="sm:flex-row flex-col flex justify-center">
+			<TipsCard img="assets/chatIcon.png" text="Envie seu contato"></TipsCard>
+			<TipsCard
+				img="assets/profileIcon.png"
+				text="Entramos em contato para nossa avaliação gratuita"
+			></TipsCard>
+			<TipsCard img="assets/boxIcon.png" text="Entrega de soluções prontas para crescer sua empresa"
+			></TipsCard>
+		</div>
 	</div>
 	<Footer></Footer>
-	
 </main>
 
 <style>
@@ -28,9 +33,8 @@
 
 	.font-sans {
 		font-family: 'SF Pro Display', sans-serif;
-
 	}
 	:global(body) {
-        background-color: black;
+		background-color: black;
 	}
 </style>
